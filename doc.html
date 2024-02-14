@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="doc.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Medical Information</h2>
+        <form action="index.html" method="post" id="medical-form">  
+            <label for="blood-type">Blood Type:</label><br>
+            <div class="blood-type-container">
+                <button type="button" class="blood-type" id="blood-type-A" value="A">A</button>
+                <button type="button" class="blood-type" id="blood-type-B" value="B">B</button>
+                <button type="button" class="blood-type" id="blood-type-AB" value="AB">AB</button>
+                <button type="button" class="blood-type" id="blood-type-O" value="O">O</button>
+            </div>
+        
+            <label for="insurance">Insurance Information:</label><br>
+            <input type="text" id="insurance" name="insurance" required><br>
+          
+            <label for="medical-history">Medical History:</label><br>
+            <textarea id="medical-history" name="medical-history" required></textarea><br>
+          
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="doc.js"></script>
+</body>
+</html>
